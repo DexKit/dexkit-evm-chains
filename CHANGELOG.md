@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.1.0...v1.2.0) (2024-01-30)
+
+
+### Features
+
+* update paths ([1df00f1](https://github.com/DexKit/dexkit-evm-chains/commit/1df00f1bc260aa2bb8bcdb43663fc0f9500a54a0))
+
 ## [1.1.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.0.0...v1.1.0) (2024-01-30)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.3.0...v1.4.0) (2024-01-30)
+
+
+### Features
+
+* add util ([d3516da](https://github.com/DexKit/dexkit-evm-chains/commit/d3516da8fa922d3d37b6f2e49a655e4725b73c12))
+
 ## [1.3.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.2.0...v1.3.0) (2024-01-30)
 
 

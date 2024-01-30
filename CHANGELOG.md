@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.4.0...v1.5.0) (2024-01-30)
+
+
+### Features
+
+* bump version ([5b18e8a](https://github.com/DexKit/dexkit-evm-chains/commit/5b18e8aafc2a0590bf1e6b9a650e455fceb6b39e))
+
 ## [1.4.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.3.0...v1.4.0) (2024-01-30)
 
 

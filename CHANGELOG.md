@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.5.0...v1.6.0) (2024-01-30)
+
+
+### Features
+
+* add export dexappbuilder chain ids ([6d97797](https://github.com/DexKit/dexkit-evm-chains/commit/6d97797a27a8a9c040bc46c2ab0d95cefedec64a))
+* add tests to utils ([30c2ce5](https://github.com/DexKit/dexkit-evm-chains/commit/30c2ce59e90dd6e2d41eaa40c92256b3785a5bfe))
+
 ## [1.5.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.4.0...v1.5.0) (2024-01-30)
 
 

@@ -30,3 +30,19 @@ export const GET_ALL_NETWORK_PROVIDER = (chainId: number) => {
     }
   }
 }
+
+/**
+ * returns the chain for this slug
+ * @param chainId 
+ * @returns 
+ */
+export const GET_ALL_NETWORK_CHAIN_ID = (slug: string) => {
+  if (slug) {
+    const index = Object.values(SLUG_OVERLAP).findIndex(sl => sl.toLowerCase() === slug.toLowerCase())
+    if (index) {
+      return Number(Object.keys(SLUG_OVERLAP)[index]);
+    } else {
+      return ALL_CHAINS.find(ch => ch.shortName.toLowerCase() === slug.toLowerCase())?.chainId;
+    }
+  }
+}

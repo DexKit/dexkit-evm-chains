@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.6.0...v1.7.0) (2024-01-30)
+
+
+### Features
+
+* remove node ([efc5e07](https://github.com/DexKit/dexkit-evm-chains/commit/efc5e070a0232637fb69d8f38ec887a7798616fa))
+
 ## [1.6.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.5.0...v1.6.0) (2024-01-30)
 
 

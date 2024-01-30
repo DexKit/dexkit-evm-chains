@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.2.0...v1.3.0) (2024-01-30)
+
+
+### Features
+
+* add util to get chain id from slug ([b67829f](https://github.com/DexKit/dexkit-evm-chains/commit/b67829fc46d64767dc11a2f9348b76015573090f))
+
 ## [1.2.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.1.0...v1.2.0) (2024-01-30)
 
 

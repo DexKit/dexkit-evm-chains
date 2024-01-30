@@ -13,8 +13,11 @@
   },
   "scripts": {
     "lint": "TIMING=1 eslint \"**/*.ts*\"",
+    "test": "jest",
     "build": "tsc -b",
     "dev": "tsc -w",
+    "clean": "rm -rf ./dist",
+    "publish-local-npm": "yarn clean && yarn build && yarn publish",
     "script:filter-coingecko-ids": "npx node ./scripts/filter-coingecko-ids.js",
     "script:generate-chain-ids": "npx node ./scripts/generate-chain-ids.js",
     "script:fetch-chains": "npx node ./scripts/fetch-chains.js",
@@ -22,9 +25,15 @@
     "script:add-chain": "npx node ./scripts/add-chain.js"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-typescript": "^7.23.3",
+    "@types/jest": "^29.5.11",
+    "babel-jest": "^29.7.0",
     "commander": "^11.1.0",
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
+    "jest": "^29.7.0",
     "tsconfig": "*",
     "typescript": "^4.5.2"
   },

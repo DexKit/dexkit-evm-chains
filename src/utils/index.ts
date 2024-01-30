@@ -22,9 +22,9 @@ export const GET_ALL_NETWORK_SLUG = (chainId: number) => {
 
 export const GET_ALL_NETWORK_PROVIDER = (chainId: number) => {
   if (chainId) {
-    const slug = PROVIDER_OVERLAP[chainId];
-    if (slug) {
-      return slug
+    const provider = PROVIDER_OVERLAP[chainId];
+    if (provider) {
+      return provider
     } else {
       return ALL_CHAINS.find(ch => ch.chainId === chainId)?.rpc[0];
     }
@@ -38,8 +38,8 @@ export const GET_ALL_NETWORK_PROVIDER = (chainId: number) => {
  */
 export const GET_ALL_NETWORK_CHAIN_ID = (slug: string) => {
   if (slug) {
-    const index = Object.values(SLUG_OVERLAP).findIndex(sl => sl.toLowerCase() === slug.toLowerCase())
-    if (index) {
+    const index = Object.values(SLUG_OVERLAP).findIndex(sl => sl.toLowerCase() === slug.toLowerCase());
+    if (index !== -1) {
       return Number(Object.keys(SLUG_OVERLAP)[index]);
     } else {
       return ALL_CHAINS.find(ch => ch.shortName.toLowerCase() === slug.toLowerCase())?.chainId;

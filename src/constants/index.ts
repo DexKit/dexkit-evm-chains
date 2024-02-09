@@ -63,7 +63,7 @@ export const SLUG_OVERLAP: { [key: number]: string } = {
 export const PROVIDER_OVERLAP: { [key: number]: string } = {
   [CHAIN_IDS.Ethereum_Mainnet]: 'https://eth.llamarpc.com',
   [CHAIN_IDS.Arbitrum_One]: 'https://arb1.arbitrum.io/rpc',
-  [CHAIN_IDS.OP_Mainnet]: 'https://mainnet.base.org',
+  [CHAIN_IDS.OP_Mainnet]: 'https://mainnet.optimism.io',
   [CHAIN_IDS.Avalanche_C_Chain]: 'https://api.avax.network/ext/bc/C/rpc',
   [CHAIN_IDS.BNB_Smart_Chain_Mainnet]: 'https://bscrpc.com',
   [CHAIN_IDS.Fantom_Opera]: 'https://rpc.ftm.tools',

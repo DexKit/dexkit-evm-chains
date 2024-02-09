@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/DexKit/dexkit-evm-chains/compare/v1.7.0...v1.7.1) (2024-02-09)
+
+
+### Bug Fixes
+
+* optimism provider overlap ([f9be485](https://github.com/DexKit/dexkit-evm-chains/commit/f9be485ed49234635a8d7a2da58439fcb6f274f8))
+
 ## [1.7.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.6.0...v1.7.0) (2024-01-30)
 
 

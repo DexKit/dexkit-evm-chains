@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.8.1...v1.9.0) (2024-02-16)
+
+
+### Features
+
+* add blast weth address ([55fbabd](https://github.com/DexKit/dexkit-evm-chains/commit/55fbabd1ce8b900687e577adc1399d4dde29e3dc))
+
 ## [1.8.1](https://github.com/DexKit/dexkit-evm-chains/compare/v1.8.0...v1.8.1) (2024-02-16)
 
 

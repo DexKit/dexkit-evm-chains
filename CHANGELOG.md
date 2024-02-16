@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.7.1...v1.8.0) (2024-02-16)
+
+
+### Features
+
+* add blast sepolia testnet chain ([351966d](https://github.com/DexKit/dexkit-evm-chains/commit/351966dd9eea7db6c551b876846b6314e822eaf5))
+
 ## [1.7.1](https://github.com/DexKit/dexkit-evm-chains/compare/v1.7.0...v1.7.1) (2024-02-09)
 
 

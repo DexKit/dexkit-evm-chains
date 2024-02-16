@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.1](https://github.com/DexKit/dexkit-evm-chains/compare/v1.8.0...v1.8.1) (2024-02-16)
+
+
+### Bug Fixes
+
+* add blast sepolia ([03c6199](https://github.com/DexKit/dexkit-evm-chains/commit/03c61990a9150c5005da1e5eab0f0c00552bcb04))
+
 ## [1.8.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.7.1...v1.8.0) (2024-02-16)
 
 

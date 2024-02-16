@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.1](https://github.com/DexKit/dexkit-evm-chains/compare/v1.9.0...v1.9.1) (2024-02-16)
+
+
+### Bug Fixes
+
+* github action ([25a2d50](https://github.com/DexKit/dexkit-evm-chains/commit/25a2d505db5615b5ea41dc1974b7acfa010c72f3))
+
 ## [1.9.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.8.1...v1.9.0) (2024-02-16)
 
 

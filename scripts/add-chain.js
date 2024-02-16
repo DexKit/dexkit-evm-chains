@@ -1,53 +1,47 @@
 const fs = require("fs");
 
-const { Command } = require('commander');
+const { Command } = require("commander");
 const program = new Command();
 
-program
-  .option('-c, --chainId <chainId>', 'Add this chain id')
- 
+program.option("-c, --chainId <chainId>", "Add this chain id");
+
 program.parse(process.argv);
 const options = program.opts();
 
-
-if (options.chainId){
+if (options.chainId) {
   const chainId = Number(options.chainId);
-/**
- * Script to add chain to DexAppBuilder nexto
- */
+  /**
+   * Script to add chain to DexAppBuilder nexto
+   */
 
-const chainListPath = './src/constants/chains copy.json';
+  const chainListPath = "./src/constants/chains.json";
 
-async function addChain() {
-  const data = JSON.parse(fs.readFileSync('./static/chains.json', 'utf8'));
-  const chainList = JSON.parse(fs.readFileSync(chainListPath, 'utf8'));
-  const chain = data.find(d => d.chainId === chainId);
-  if(!chain){ 
-    console.error('chain not identified');
-    return
+  async function addChain() {
+    const data = JSON.parse(fs.readFileSync("./static/chains.json", "utf8"));
+    const chainList = JSON.parse(fs.readFileSync(chainListPath, "utf8"));
+    const chain = data.find((d) => d.chainId === chainId);
+    if (!chain) {
+      console.error("chain not identified");
+      return;
+    }
+    const findChain = chainList.find((c) => c.chainId === chainId);
+    if (findChain) {
+      console.error("chain already is on list");
+      return;
+    }
+    console.log(chain);
+    chainList.push(chain);
+    chainList.sort((a, b) => a.chainId - b.chainId);
+
+    await fs.writeFileSync(chainListPath, JSON.stringify(chainList, null, 4));
+    console.log("chains fetched");
   }
-  const findChain = chainList.find(c => c.chainId === chainId);
-  if(findChain){
-    console.error('chain already is on list');
-    return
+
+  async function main() {
+    await addChain();
   }
-  console.log(chain)
-  chainList.push(chain);
-  chainList.sort((a, b) => a.chainId-b.chainId);
 
-
-  await fs.writeFileSync(chainListPath, JSON.stringify(chainList, null, 4));
-  console.log("chains fetched")
+  main().then(() => {});
+} else {
+  console.log("missing command --chainId");
 }
-
-async function main() {
-  await addChain();
-}
-
-main().then(() => {});
-
-}else{
-  console.log('missing command --chainId')
-}
-
-

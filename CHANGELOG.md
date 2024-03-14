@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.9.1...v1.10.0) (2024-03-14)
+
+
+### Features
+
+* add blast and pulse ([9b7e830](https://github.com/DexKit/dexkit-evm-chains/commit/9b7e8300f2f1ea03f2a6ce4f035944f6f3f1065d))
+
 ## [1.9.1](https://github.com/DexKit/dexkit-evm-chains/compare/v1.9.0...v1.9.1) (2024-02-16)
 
 

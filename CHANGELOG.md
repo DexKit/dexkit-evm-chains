@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.1](https://github.com/DexKit/dexkit-evm-chains/compare/v1.11.0...v1.11.1) (2024-03-21)
+
+
+### Bug Fixes
+
+* typo in types ([54bc3e6](https://github.com/DexKit/dexkit-evm-chains/commit/54bc3e6f477386a72c8c57efe5b48f255f8047da))
+
 ## [1.11.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.10.0...v1.11.0) (2024-03-21)
 
 

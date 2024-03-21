@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.11.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.10.0...v1.11.0) (2024-03-21)
+
+
+### Features
+
+* add additional exports ([237a838](https://github.com/DexKit/dexkit-evm-chains/commit/237a838d0aa4b3079090590a7c0c45473f2508b9))
+* add pulse icon ([00e8246](https://github.com/DexKit/dexkit-evm-chains/commit/00e8246251ac2188597f30050123e991160535d1))
+
 ## [1.10.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.9.1...v1.10.0) (2024-03-14)
 
 

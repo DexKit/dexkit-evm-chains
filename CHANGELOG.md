@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.1](https://github.com/DexKit/dexkit-evm-chains/compare/v1.12.0...v1.12.1) (2024-03-22)
+
+
+### Bug Fixes
+
+* put types first ([1b5a10b](https://github.com/DexKit/dexkit-evm-chains/commit/1b5a10b77ec6e9bf895b69803653df11b71e4582))
+
 ## [1.12.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.11.1...v1.12.0) (2024-03-22)
 
 

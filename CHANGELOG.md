@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.11.1...v1.12.0) (2024-03-22)
+
+
+### Features
+
+* improve bundler ([e9be258](https://github.com/DexKit/dexkit-evm-chains/commit/e9be2582d9b70440b609fef3fa8c7619b65fc446))
+
 ## [1.11.1](https://github.com/DexKit/dexkit-evm-chains/compare/v1.11.0...v1.11.1) (2024-03-21)
 
 

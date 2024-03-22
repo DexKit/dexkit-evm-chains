@@ -3,6 +3,7 @@
   "private": false,
   "version": "1.11.1",
   "license": "MIT",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
@@ -46,7 +47,7 @@
     "eslint-config-custom": "*",
     "jest": "^29.7.0",
     "tsconfig": "*",
-    "typescript": "^4.5.2"
+    "typescript": "^4.7"
   },
   "publishConfig": {
     "access": "public"

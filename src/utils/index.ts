@@ -1,4 +1,4 @@
-import { PROVIDER_OVERLAP, SLUG_OVERLAP } from "../constants";
+import { PROVIDER_OVERLAP, SLUG_OVERLAP } from "../constants/index.js";
 import ALL_CHAINS from '../constants/minified-chains.json';
 
 

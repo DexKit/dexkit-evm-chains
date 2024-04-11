@@ -9,7 +9,7 @@ export const MULTICALL_NATIVE_TOKEN_ADDRESS =
   '0x0000000000000000000000000000000000000000';
 
 
-export const SUPPORTED_DEXAPPBUILDER_CHAIN_IDS = [CHAIN_IDS.Ethereum_Mainnet, CHAIN_IDS.Arbitrum_One, CHAIN_IDS.Avalanche_C_Chain, CHAIN_IDS.OP_Mainnet, CHAIN_IDS.BNB_Smart_Chain_Mainnet, CHAIN_IDS.Fantom_Opera, CHAIN_IDS.Polygon_Mainnet, CHAIN_IDS.Base, CHAIN_IDS.Mumbai, CHAIN_IDS.Goerli, CHAIN_IDS.Blast_Sepolia_Testnet, CHAIN_IDS.Blast, CHAIN_IDS.Sepolia];
+export const SUPPORTED_DEXAPPBUILDER_CHAIN_IDS = [CHAIN_IDS.Ethereum_Mainnet, CHAIN_IDS.Arbitrum_One, CHAIN_IDS.Avalanche_C_Chain, CHAIN_IDS.OP_Mainnet, CHAIN_IDS.BNB_Smart_Chain_Mainnet, CHAIN_IDS.Fantom_Opera, CHAIN_IDS.Polygon_Mainnet, CHAIN_IDS.Base, CHAIN_IDS.Mumbai, CHAIN_IDS.Goerli, CHAIN_IDS.Blast_Sepolia_Testnet, CHAIN_IDS.Blast, CHAIN_IDS.Sepolia, CHAIN_IDS.BNB_Smart_Chain_Testnet];
 
 /**Chain Ids that DexAppBuilder supported before */
 export const SUPPORTED_LEGACY_CHAIN_IDS = [CHAIN_IDS.Ethereum_Mainnet, CHAIN_IDS.Arbitrum_One, CHAIN_IDS.Avalanche_C_Chain, CHAIN_IDS.OP_Mainnet, CHAIN_IDS.BNB_Smart_Chain_Mainnet, CHAIN_IDS.Fantom_Opera, CHAIN_IDS.Polygon_Mainnet, CHAIN_IDS.Base, CHAIN_IDS.Mumbai, CHAIN_IDS.Goerli]

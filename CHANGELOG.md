@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.12.1...v1.13.0) (2024-04-11)
+
+
+### Features
+
+* add bsc testnet ([b4c1775](https://github.com/DexKit/dexkit-evm-chains/commit/b4c1775cd35e5e900c07901772d79987cc41c3bf))
+
 ## [1.12.1](https://github.com/DexKit/dexkit-evm-chains/compare/v1.12.0...v1.12.1) (2024-03-22)
 
 

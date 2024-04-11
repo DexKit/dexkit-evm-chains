@@ -3,21 +3,39 @@
   "private": false,
   "version": "1.12.1",
   "license": "MIT",
-  "type": "module",
+  "module": "dist/index.mjs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
     },
     "./utils": {
-      "types": "./dist/utils/index.d.ts",
-      "import": "./dist/utils/index.js"
+      "import": {
+        "types": "./dist/utils/index.d.mts",
+        "default": "./dist/utils/index.mjs"
+      },
+      "require": {
+        "types": "./dist/utils/index.d.ts",
+        "default": "./dist/utils/index.js"
+      }
     },
     "./constants": {
-      "types": "./dist/constants/index.d.ts",
-      "import": "./dist/constants/index.js"
+      "import": {
+        "types": "./dist/constants/index.d.mts",
+        "default": "./dist/constants/index.mjs"
+      },
+      "require": {
+        "types": "./dist/constants/index.d.ts",
+        "default": "./dist/constant/index.js"
+      }
     }
   },
   "files": [
@@ -26,7 +44,7 @@
   "scripts": {
     "lint": "TIMING=1 eslint \"**/*.ts*\"",
     "test": "jest",
-    "build": "tsc -b",
+    "build": "yarn clean && tsup",
     "dev": "tsc -w",
     "clean": "rm -rf ./dist",
     "publish-local-npm": "yarn clean && yarn build && yarn publish",
@@ -47,6 +65,7 @@
     "eslint-config-custom": "*",
     "jest": "^29.7.0",
     "tsconfig": "*",
+    "tsup": "^8.0.2",
     "typescript": "^4.7"
   },
   "publishConfig": {

@@ -8,14 +8,14 @@ export const DKAPI_INVALID_ADDRESSES = [
 export const MULTICALL_NATIVE_TOKEN_ADDRESS =
   '0x0000000000000000000000000000000000000000';
 
-
-export const SUPPORTED_DEXAPPBUILDER_CHAIN_IDS = [CHAIN_IDS.Ethereum_Mainnet, CHAIN_IDS.Arbitrum_One, CHAIN_IDS.Avalanche_C_Chain, CHAIN_IDS.OP_Mainnet, CHAIN_IDS.BNB_Smart_Chain_Mainnet, CHAIN_IDS.Fantom_Opera, CHAIN_IDS.Polygon_Mainnet, CHAIN_IDS.Base, CHAIN_IDS.Amoy, CHAIN_IDS.Goerli, CHAIN_IDS.Blast_Sepolia_Testnet, CHAIN_IDS.Blast, CHAIN_IDS.Sepolia, CHAIN_IDS.BNB_Smart_Chain_Testnet];
-
+// we now support as defaults as Chains listed on CHAINS
+//export const SUPPORTED_DEXAPPBUILDER_CHAIN_IDS = [CHAIN_IDS.Ethereum_Mainnet, CHAIN_IDS.Arbitrum_One, CHAIN_IDS.Avalanche_C_Chain, CHAIN_IDS.OP_Mainnet, CHAIN_IDS.BNB_Smart_Chain_Mainnet, CHAIN_IDS.Fantom_Opera, CHAIN_IDS.Polygon_Mainnet, CHAIN_IDS.Base, CHAIN_IDS.Amoy, CHAIN_IDS.Goerli, CHAIN_IDS.Blast_Sepolia_Testnet, CHAIN_IDS.Blast, CHAIN_IDS.Sepolia, CHAIN_IDS.BNB_Smart_Chain_Testnet];
+export const SUPPORTED_DEXAPPBUILDER_CHAIN_IDS = CHAINS.map(c => c.chainId);
 /**Chain Ids that DexAppBuilder supported before */
 export const SUPPORTED_LEGACY_CHAIN_IDS = [CHAIN_IDS.Ethereum_Mainnet, CHAIN_IDS.Arbitrum_One, CHAIN_IDS.Avalanche_C_Chain, CHAIN_IDS.OP_Mainnet, CHAIN_IDS.BNB_Smart_Chain_Mainnet, CHAIN_IDS.Fantom_Opera, CHAIN_IDS.Polygon_Mainnet, CHAIN_IDS.Base, CHAIN_IDS.Goerli, CHAIN_IDS.Sepolia]
 
 
-export const DEFAULT_DEXAPPBUILDER_NETWORKS = CHAINS.filter(ch => SUPPORTED_DEXAPPBUILDER_CHAIN_IDS.includes(ch.chainId));
+export const DEFAULT_DEXAPPBUILDER_NETWORKS = CHAINS;
 
 export const EVM_CHAINS = CHAINS;
 

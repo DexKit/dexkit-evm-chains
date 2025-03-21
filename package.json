@@ -73,6 +73,6 @@
     "access": "public"
   },
   "dependencies": {
-    "viem": "^2.13.7"
+    "viem": "^2.23.3"
   }
 }

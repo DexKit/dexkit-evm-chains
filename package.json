@@ -52,7 +52,8 @@
     "script:generate-chain-ids": "npx node ./scripts/generate-chain-ids.js",
     "script:fetch-chains": "npx node ./scripts/fetch-chains.js",
     "script:update-all-chains": "npx node ./scripts/update-all-chains.js",
-    "script:add-chain": "npx node ./scripts/add-chain.js"
+    "script:add-chain": "npx node ./scripts/add-chain.js",
+    "script:add-viem-chain": "npx node ./scripts/add-viem-chain.mjs"
   },
   "devDependencies": {
     "@babel/core": "^7.23.9",
@@ -70,5 +71,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "viem": "^2.13.7"
   }
 }

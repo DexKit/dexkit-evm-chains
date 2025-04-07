@@ -380,7 +380,7 @@
         "chainId": 56,
         "shortName": "bnb",
         "rpc": [
-            "https://bsc-dataseed1.bnbchain.org"
+            "https://bsc-dataseed.bnbchain.org"
         ]
     },
     {

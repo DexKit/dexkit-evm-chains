@@ -8,7 +8,7 @@ DexAppBuilder can work with any chain listed on `src/constants/chains.json`
 
 Steps to add:
 
-1. Fork this repository.
+1. Fork this repository .
 2. Run the script `yarn script:fetch-chains` to ensure that you are up to date with the latest chains.
 3. Run the script `yarn script:add-chain --chainId chainId-to-add`.
 4. Run the script `yarn script:add-viem-chain`.

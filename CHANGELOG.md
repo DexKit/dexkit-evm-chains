@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.15.1](https://github.com/DexKit/dexkit-evm-chains/compare/v1.15.0...v1.15.1) (2025-04-07)
+
+
+### Bug Fixes
+
+* trigger rebuilder ([b73f3b8](https://github.com/DexKit/dexkit-evm-chains/commit/b73f3b8000931e5340dddfaadd583a77a8c7d037))
+
+## [1.15.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.14.0...v1.15.0) (2025-04-07)
+
+
+### Features
+
+* add amoy testnet ([dd13425](https://github.com/DexKit/dexkit-evm-chains/commit/dd1342564e0897727d01ab7d521c12cb1ff2ffc8))
+* add viem chains automatically ([4481916](https://github.com/DexKit/dexkit-evm-chains/commit/4481916cddac40ccc4f0281d354489a71895bd55))
+
 ## [1.14.0](https://github.com/DexKit/dexkit-evm-chains/compare/v1.13.0...v1.14.0) (2024-04-11)
 
 

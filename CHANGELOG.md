@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.2](https://github.com/DexKit/dexkit-evm-chains/compare/v1.15.1...v1.15.2) (2025-04-10)
+
+
+### Bug Fixes
+
+* merge ([3689c08](https://github.com/DexKit/dexkit-evm-chains/commit/3689c081bb82371d3baa53f04bb817465dba49ec))
+
 ## [1.15.1](https://github.com/DexKit/dexkit-evm-chains/compare/v1.15.0...v1.15.1) (2025-04-07)
 
 
